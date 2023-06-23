@@ -3,7 +3,7 @@ package controllers
 import "github.com/gin-gonic/gin"
 
 func GetFoods() gin.HandlerFunc {
-	return func(c *gin.Context) {
+	return func(context *gin.Context) {
 
 	}
 }
